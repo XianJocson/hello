@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" standalone="yes" encoding="UTF-8"? >
+
+<!--open the DOCTYPE declaration -
+  the open square bracket indicates an internal DTD-->
+<!DOCTYPE foo [
+
+<!--define the internal DTD-->
+  <!ELEMENT foo (#PCDATA)>
+
+<!--close the DOCTYPE declaration-->
+]>
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
-        version   = "1.0.0">
+<widget xmlns ="http://www.w3.org/ns/widgets" xmlns:gap ="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
 
     <name>Hello World</name>
 
@@ -133,5 +140,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-
+	
 </widget>
