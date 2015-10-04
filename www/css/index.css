@@ -46,27 +46,24 @@ body {
 }
 
 #logo{
-	width:80%;
+	width:95%;
 	}
 	
 #seatComments {
 	background-color: #D1D0D0;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 10px;
+	padding:10px; 
 	color: #434242;
-	margin-top: 20px;
+	margin:150px 30px 30px 30px;
 	}	
 /* Portrait layout (default) */
 .app {
     
     background-color:#8D3E40;
     height:50px;                   /* text area height */
-    width:90%;                   /* text area width */
+    width:100%;                   /* text area width */
     text-align:center;
-    padding:0px 0px 0px 0px;     
-	margin:50px 0px 0px 50px;
+    padding:0px 10px 0px 0px;     
+	margin:50px 10px 0px 10px;
 	
 }
 
@@ -81,23 +78,15 @@ body {
 }
 
 h1 {
-    font-size:24px;
-    font-weight:normal;
-    margin:0px;
-    overflow:visible;
-    padding:0px;
-    text-align:center;
-}
-
-h2 {
-	font-size: 22px;
-   font-weight:strong;
-    margin:10px;
+	font-size: 40px;
+   	font-weight:strong;
+    margin:20px;
     overflow:visible;
     padding:0px;
     text-align:left;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	}
+
+}
 
 .event {
     border-radius:4px;
