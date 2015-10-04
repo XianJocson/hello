@@ -62,12 +62,12 @@ body {
 .app {
     
     background-color:#8D3E40;
-	position:absolute;
-    top:50%;
     height:50px;                   /* text area height */
     width:90%;                   /* text area width */
     text-align:center;
-    padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    padding:0px 0px 0px 0px;     
+	margin:50px 0px 0px 50px;
+	
 }
 
 /* Landscape layout (with min-width) */
