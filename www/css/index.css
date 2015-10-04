@@ -53,17 +53,16 @@ body {
 	background-color: #D1D0D0;
 	padding:10px; 
 	color: #434242;
-	margin:150px 30px 30px 30px;
+	margin:125px 100px 100px 100px;
+	text-align:left;
 	}	
 /* Portrait layout (default) */
 .app {
     
-    background-color:#8D3E40;
     height:50px;                   /* text area height */
     width:100%;                   /* text area width */
-    text-align:center;
     padding:0px 10px 0px 0px;     
-	margin:50px 10px 0px 10px;
+	margin:200px 10px 0px 10px;
 	
 }
 
@@ -78,12 +77,11 @@ body {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 60px;
    	font-weight:strong;
     margin:20px;
     overflow:visible;
     padding:0px;
-    text-align:left;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
