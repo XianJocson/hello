@@ -33,7 +33,30 @@
         <div class="app">
         	<img id="logo" src="img/kncdlogo.png" >
             <div id="seatComments">
-            <h1>Seat Comments</h1>
+            <h1 onClick="callAnotherPage">Seat Comments</h1>
+            <script type="text/javascript" charset="utf-8" src="cordova-1.5.0.js"></script>      
+          <script type="text/javascript" charset="utf-8">
+
+             function callAnothePage()
+             {
+                window.location = "locations.html";
+             }
+          </script>
+          <script type="text/javascript" charset="utf-8">
+
+             document.addEventListener("deviceready", onDeviceReady, true);
+
+             function onDeviceReady()
+             {     
+                   document.addEventListener("backbutton", BackKeyDown, true);
+             }
+
+             function BackKeyDown()
+             {
+                 navigator.notification.alert();
+                 //navigator.app.exitApp();  // For Exit Application
+             }
+        </script>
             <img src="img/icons /locations/penrith.png" href="locations.html">
             </div>
         </div>
