@@ -50,6 +50,15 @@ body {
 	margin-left:50px;
 	}
 	
+#dish{
+	width:20%;
+	margin:0px 0px 0px 425px;
+	align-content:center;
+	}
+	
+.icons {
+	margin:150px 50px 20px 60px;
+	}	
 #seatComments {
 	background-color: #F9F9F9;
 	padding:10px; 
