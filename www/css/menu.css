@@ -32,7 +32,7 @@ body.left-nav .topcoat-navigation-bar, body.left-nav .main-content {
 .side-nav {
     display:hidden;
     position:absolute;
-    top:20%;
+    top:0;
     left:0px;
     width:320px;
     height:100%;
