@@ -157,6 +157,7 @@ html{
     width:320px;
     height:100%;
     background-color:#353535;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .side-nav__list__container {
     margin-top:4rem;
@@ -165,6 +166,8 @@ html{
 }
 .side-nav__list {
     border-top:none;
+	list-style-type: none;
+	font-size:28px;
 }
 .side-nav__list__item {
     padding:0;
@@ -180,6 +183,7 @@ html{
     box-sizing: border-box;
     color: #c6c8c8;
     text-decoration:none;
+	font-weight:500;
 }
 .side-nav__button:hover {
     background-color:#747474;
