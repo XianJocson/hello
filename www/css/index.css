@@ -121,12 +121,11 @@ a {
 	color:#EFEFEF;
 	text-decoration:none;
 	}
-
-nav ul li:hover {
-background-color:#31602D;
-}
+a:hover {
+	background-color:#31602D;
+	}
 
 #menuimg {
-	margin-top:-115px;
+	margin-top:-187px;
 	
 	}
