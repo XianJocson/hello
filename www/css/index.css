@@ -98,7 +98,7 @@ nav{
 	
 nav ul {
 width:100%;
-margin: 0px 0px 75% 0px; 
+margin: 0px 0px 77% 0px; 
 }
 
 nav ul li {
@@ -125,3 +125,8 @@ a {
 nav ul li:hover {
 background-color:#31602D;
 }
+
+#menuimg {
+	margin-top:-115px;
+	
+	}
