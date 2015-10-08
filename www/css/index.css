@@ -117,16 +117,11 @@ text-align:center;
 cursor:pointer;
 }
 
-a {
-	color:#EFEFEF;
-	text-decoration:none;
-	}
-
 nav ul li:hover {
 background-color:#31602D;
 }
 
 #menuimg {
-	margin-top:-190px;
+
 	
 	}
