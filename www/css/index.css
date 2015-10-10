@@ -139,9 +139,14 @@ background-color:#31602D;
 	}
 	
 #icon-dish{
-	margin-left:35%;
+	width:30%;
+	margin:0px 10px 0px 35%;
 	}
 	
 #locations{
-	margin:0px 0px 0px 0px;
+	position:relative;
+	margin:200px 0px 0px 0px;
+	}
+.icons {
+	padding:55px;
 	}
