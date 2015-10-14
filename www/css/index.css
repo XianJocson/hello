@@ -78,18 +78,17 @@ h2 {
 	
 nav{
 	margin-left:-10px;
-	width:1080px;
-	height:200px;
-	background-color:#444444;
-	position:relative;
 	bottom:0;
-	position:absolute;
 	
 	}
 	
 nav ul {
 	margin: 0px 0px 0px 0px; 
 	bottom:0;
+	width:1080px;
+	height:200px;
+	background-color:#444444;
+	position:absolute;
 }
 
 nav ul li {
@@ -97,7 +96,6 @@ float:left;
 margin:0px -15px 0px 0px;
 padding:0px 0px 0px 0px;
 list-style:none;
-display: inline;
 }
 
 nav ul li a:hover {
