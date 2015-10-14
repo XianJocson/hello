@@ -29,7 +29,6 @@ body {
     font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     font-size:12px;
     height:100%;
-    width:99%;
 	color:#E5DEDF;
 }
 
@@ -48,7 +47,7 @@ body {
 .app {
 	width:100%;                   /* text area width */
     padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:150px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
+    margin:0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
@@ -78,14 +77,12 @@ h2 {
 	
 nav{
 	margin-left:-10px;
-	bottom:0;
-	
 	}
 	
-nav ul {
+nav ul{
 	margin: 0px 0px 0px 0px; 
 	bottom:0;
-	width:1080px;
+	width:99%;
 	height:200px;
 	background-color:#444444;
 	position:absolute;
