@@ -71,13 +71,10 @@ h1 {
 }
 
 h2 {
-	font-size: 22px;
-   font-weight:strong;
-    margin:10px;
-    overflow:visible;
-    padding:0px;
-    text-align:left;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    text-align:left;
+	margin-left:70px;
 	}
 	
 nav{
@@ -101,6 +98,10 @@ padding:0px 0px 0px 0px;
 list-style:none;
 }
 
+nav ul li a:hover {
+background-color:#58D474;
+}
+
 #icon-dish{
 	width:30%;
 	margin:-50px 0px 50px 380px;
@@ -108,7 +109,8 @@ list-style:none;
 	}
 	
 #locations{
-	margin:0px 0px 0px 100px;
+	margin:0px 0px 0px 0px;
 	}
 .icons {
+	padding:50px;
 	}
