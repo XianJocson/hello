@@ -25,7 +25,6 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:#3B3B3B;
-	background-image:url(file:///Macintosh%20HD/Users/amandajillianbenham/GitHub/hello/www/img/background/wood-wallpaper-3.jpg);
     background-attachment:fixed;
     font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -47,7 +46,7 @@ body {
 	}	
 /* Portrait layout (default) */
 .app {
-    width:100%;                   /* text area width */
+	width:100%;                   /* text area width */
     padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
@@ -86,14 +85,13 @@ nav{
 	width:1080px;
 	height:200px;
 	background-color:#444444;
-	position:absolute;
+	position:relative;
 	bottom:0;
-	
 	
 	}
 	
 nav ul {
-margin: 0px 0px 0px 0px; 
+	margin: 0px 0px 0px 0px; 
 }
 
 nav ul li {
@@ -105,9 +103,12 @@ list-style:none;
 
 #icon-dish{
 	width:30%;
+	margin:-50px 0px 50px 380px;
+
 	}
 	
 #locations{
+	margin:0px 0px 0px 100px;
 	}
 .icons {
 	}
