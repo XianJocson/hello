@@ -35,11 +35,12 @@ body {
 #logo{
 	width:90%;
 	margin-left:5%;
+	margin-top:5%;
 	}
 		
 /* Portrait layout (default) */
 .app {
-	width:100%;                   /* text area width */
+	width:99%;                   /* text area width */
     padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
@@ -75,7 +76,7 @@ nav{
 	
 nav ul{
 	bottom:0;
-	margin: 0px 0px 0px 0px; 
+	margin: 0px 0px -5px 0px; 
 	position:relative;
 	width:99%;
 	height:200px;
@@ -104,4 +105,8 @@ background-color:#58D474;
 	}
 .icons {
 	padding:50px;
+	}
+	
+#text-wrap {
+	margin:50px 0px 0px 50px;
 	}
