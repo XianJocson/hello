@@ -40,7 +40,7 @@ body {
 		
 /* Portrait layout (default) */
 .app {
-	width:97%;                   /* text area width */
+	width:98%;                   /* text area width */
     padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
@@ -112,12 +112,12 @@ background-color:#58D474;
 	}
 	
 form {
-	padding:150px;
+	padding:20px 0px 0px 250px;
 	}
 
 form ul li {
 	list-style:none;
-	padding:20px;
+	padding:20px 0px 10px 0px;
 	}
 	
 input {
@@ -128,3 +128,21 @@ input {
 #food-for-thought-icon{
 	margin-top:50px;
 	}
+	
+#behind{
+	margin: -135px 0px 0px -40px;
+	}
+	
+#behind ul{
+	position:static;
+	width:100%;
+}
+
+#behind ul li {
+float:left;
+list-style:none;
+}
+
+#behind ul li a:hover {
+background-color:#58D474;
+}
