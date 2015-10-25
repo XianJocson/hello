@@ -152,19 +152,19 @@ background-color:#58D474;
 	
 .comment-preview {
 	background-color:#FFFFFF;
-	padding:20px;
+	padding:0px 0px 0px 0px;
 	width:85%;
 	}
 	
 #default-user-image {
-	padding:20px;
+	padding:0px 0px 0px 50px;
 	}
 	
 .comment{
 	background-color:#DBDBDB;
 	color:#656565;
-	width:70%;
+	width:80%;
 	position:relative;
 	display:block;
-	margin:-150px 0px 0px 200px;
+	padding:30px;
 	}
