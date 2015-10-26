@@ -40,9 +40,9 @@ body {
 		
 /* Portrait layout (default) */
 .app {
-	width:98%;                   /* text area width */
+	width:99%;                   /* text area width */
     padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
+    margin:0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
@@ -152,19 +152,25 @@ background-color:#58D474;
 	
 .comment-preview {
 	background-color:#FFFFFF;
-	padding:0px 0px 0px 0px;
+	padding:0px 0px 50px 0px;
 	width:85%;
+	margin:0px 0px 0px 70px;
 	}
 	
 #default-user-image {
-	padding:0px 0px 0px 50px;
+	padding:20px 0px 0px 20px;
 	}
 	
 .comment{
 	background-color:#DBDBDB;
 	color:#656565;
-	width:80%;
+	width:60%;
 	position:relative;
 	display:block;
-	padding:30px;
-	}
+	padding:30px 30px 30px 30px;
+	margin:-120px 0px 0px 200px;
+}
+
+li {
+	list-style:none;
+}
