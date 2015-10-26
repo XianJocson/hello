@@ -25,9 +25,27 @@
         margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
     }
+.comment-preview{
+background-color:#FFFFFF;
+	padding:0px 0px 50px 0px;
+	width:85%;
+	margin:0px 0px 0px 70px;
+}
 
-#logo{
-	width:80%;
-	margin:250px 0px 50px 120px;
+.default-user-image {
+	padding:20px 0px 0px 40px;
+	width:10%;
 	}
+	
+.comment{
+	background-color:#DBDBDB;
+	color:#656565;
+	width:70%;
+	position:relative;
+	display:block;
+	padding:30px 30px 30px 30px;
+	margin:-160px 0px 0px 300px;
+	font-size:20px;
+}
+
 }
