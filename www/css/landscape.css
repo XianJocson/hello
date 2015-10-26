@@ -25,11 +25,17 @@
         margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
     }
+	
+#logo{
+	width:80%;
+	margin:180px 0px 50px 120px;
+	}
+	
 .comment-preview{
 background-color:#FFFFFF;
-	padding:0px 0px 50px 0px;
+	padding:0px 0px 250px 0px;
 	width:85%;
-	margin:0px 0px 0px 70px;
+	margin:0px 0px 0px 100px;
 }
 
 .default-user-image {
@@ -43,9 +49,78 @@ background-color:#FFFFFF;
 	width:70%;
 	position:relative;
 	display:block;
-	padding:30px 30px 30px 30px;
+	padding:40px;
 	margin:-160px 0px 0px 300px;
 	font-size:20px;
 }
 
+nav{
+	background-color:#444444;
+	}
+	
+nav ul{
+	bottom:0;
+	position:relative;
+	width:100%;
+	height:200px;
+}
+
+nav ul li {
+float:left;
+margin:0px 0px 0px 110px;
+padding:0px 0px 0px 0px;
+list-style:none;
+}
+
+nav ul li a:hover {
+background-color:#58D474;
+}
+
+.penrith-icon{
+	margin:160px 0px 120px 150px;
+	}
+
+.write-review{
+	display:visible; 
+	position:relative;
+	margin:0px 0px -120px -680px;
+	}
+#behind{
+	margin: 0px 0px 0px 300px;
+	}
+	
+#behind ul{
+	position:static;
+	width:100%;
+}
+
+#behind ul li {
+float:left;
+list-style:none;
+}
+
+#behind ul li a:hover {
+background-color:#58D474;
+}
+
+#screenshot{
+	background-color:#F6F6F6;
+	width:90%;
+	padding:50px;
+	margin:50px 0px 0px 20px;
+	} 
+	
+#icon-dish{
+	width:23%;
+	margin:150px 0px 0px 0px;
+	}
+	
+#locations{
+	margin:90px 0px 0px 0px;
+	}
+
+.icons {
+	padding:50px 50px 150px 50px;
+	width:19%;
+	}
 }

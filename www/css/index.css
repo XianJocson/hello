@@ -120,6 +120,7 @@ input {
 	
 #behind{
 	margin: -135px 0px 0px -40px;
+	padding:0px 0px 0px 20px;
 	}
 	
 #behind ul{
@@ -135,9 +136,6 @@ list-style:none;
 #behind ul li a:hover {
 background-color:#58D474;
 }
-
-.container-embed-responsive{
-	}
 	
 .comment-preview {
 	background-color:#FFFFFF;
@@ -161,6 +159,9 @@ background-color:#58D474;
 	font-size:20px;
 }
 
+ul {
+	
+	}
 li {
 	list-style:none;
 }
