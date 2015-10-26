@@ -47,6 +47,3 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-
-UserApp.initialize({ appId: "5610b77f16ff4" });
-
