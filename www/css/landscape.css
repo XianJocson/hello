@@ -21,10 +21,9 @@
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
-        padding:0px;  
-		width:100%;
-    }
-	
+        padding:0px;     
+	} 
+
 #logo{
 	width:80%;
 	margin:180px 0px 50px 120px;
@@ -66,7 +65,7 @@ nav ul{
 }
 
 nav ul li {
-float:left;
+float:left center;
 margin:0px 0px 0px 110px;
 padding:0px 0px 0px 0px;
 list-style:none;
@@ -120,7 +119,7 @@ background-color:#58D474;
 	}
 
 .icons {
-	padding:50px 50px 150px 50px;
+	padding:0px 50px 150px 58px;
 	width:19%;
 	}
 }
