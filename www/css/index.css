@@ -99,7 +99,7 @@ background-color:#58D474;
 	}
 	
 #locations{
-	margin:150px 0px 0px 0px;
+	margin:90px 0px 0px 0px;
 	}
 	
 .icons {
@@ -174,3 +174,10 @@ background-color:#58D474;
 li {
 	list-style:none;
 }
+
+#screenshot{
+	background-color:#F6F6F6;
+	width:90%;
+	padding:50px;
+	margin:50px 0px 0px 20px;
+	} 
