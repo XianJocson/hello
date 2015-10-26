@@ -60,22 +60,20 @@ h2 {
 	}
 	
 nav{
-	margin-left:-10px;
 	background-color:#444444;
-	margin: 0px 0px 0px 0px; 
+	margin: 0px 40px 0px 0px; 
 	}
 	
 nav ul{
 	bottom: 0;
 	position: relative;
 	width: 100%;
-	margin: 20px;
 	height: 200px;
 }
 
 nav ul li {
 float:left;
-margin:0px -15px 0px 0px;
+margin:0px -19px 0px 0px;
 padding:0px 0px 0px 0px;
 list-style:none;
 }
@@ -121,7 +119,7 @@ input {
 	
 #behind{
 	margin: -135px 0px 0px -40px;
-	padding:0px 0px 0px 20px;
+	padding:0px 0px 0px 0px;
 	}
 	
 #behind ul{
