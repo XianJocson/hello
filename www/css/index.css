@@ -102,7 +102,19 @@ background-color:#58D474;
 	}
 	
 form {
-	padding:20px 0px 0px 100px;
+	padding:20px 0px 0px 0px;
+	background-color:#D6585A;
+	margin:50px 0px 0px 0px;
+	}
+	
+form ul {
+	font-size:24px;
+	}
+	
+textarea {
+	color:#9D9D9D; 
+	font-size:18px; 
+	padding-left:30px;
 	}
 
 form ul li {
@@ -173,3 +185,5 @@ li {
 	padding:50px;
 	margin:50px 0px 0px 20px;
 	} 
+
+
