@@ -55,6 +55,7 @@ background-color:#FFFFFF;
 nav{
 	background-color:#444444;
 	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px; 
 	}
 	
 nav ul{
@@ -67,7 +68,6 @@ nav ul{
 nav ul li {
 float:left center;
 margin:0px 0px 0px 110px;
-padding:0px 0px 0px 0px;
 list-style:none;
 }
 
