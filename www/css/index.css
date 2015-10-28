@@ -109,16 +109,15 @@ form {
 form ul {
 	font-size:24px;
 	}
-	
+form ul li {
+	list-style:none;
+	padding:20px 0px 10px 0px;
+	}
+		
 textarea {
 	color:#9D9D9D; 
 	font-size:18px; 
 	padding-left:30px;
-	}
-
-form ul li {
-	list-style:none;
-	padding:20px 0px 10px 0px;
 	}
 	
 input {
