@@ -130,17 +130,16 @@ input {
 	
 #behind{
 	margin: -135px 0px 0px -40px;
-	padding:0px 0px 0px 0px;
 	}
 	
 #behind ul{
-	position:static;
 	width:100%;
 }
 
 #behind ul li {
 float:left;
 list-style:none;
+display:visible; 
 }
 
 #behind ul li a:hover {

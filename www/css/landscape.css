@@ -81,7 +81,6 @@ background-color:#58D474;
 
 .write-review{
 	display:visible; 
-	position:relative;
 	margin:0px 0px -120px -660px;
 	}
 #behind{
@@ -89,13 +88,14 @@ background-color:#58D474;
 	}
 	
 #behind ul{
-	position:static;
 	width:100%;
 }
+
 
 #behind ul li {
 float:left;
 list-style:none;
+display:visible; 
 }
 
 #behind ul li a:hover {
