@@ -28,19 +28,31 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
 		<link rel="stylesheet" type="text/css" href="css/landscape.css" />
         <script type="text/javascript">
-String facebookUrl = "https://www.facebook.com/JRummyApps";
-try {
-    int versionCode = getPackageManager().getPackageInfo("com.facebook.katana", 0).versionCode;
-    if (versionCode >= 3002850) {
-        Uri uri = Uri.parse("fb://facewebmodal/f?href=" + facebookUrl);
-        startActivity(new Intent(Intent.ACTION_VIEW, uri));;
-    } else {
-        // open the Facebook app using the old method (fb://profile/id or fb://page/id)
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/336227679757310")));
+private void openFacebookApp() {
+    String facebookUrl = "https://www.facebook.com/KingstonandCo";
+    String facebookID = "239901132808503";
+
+    try {
+        int versionCode = getActivity().getApplicationContext().getPackageManager().getPackageInfo("com.facebook.katana", 0).versionCode;
+
+        if(!facebookID.isEmpty()) {
+            // open the Facebook app using facebookID (fb://profile/facebookID or fb://page/facebookID)
+            Uri uri = Uri.parse("fb://page/" + facebookID);
+            startActivity(new Intent(Intent.ACTION_VIEW, uri));
+        } else if (versionCode >= 3002850 && !facebookUrl.isEmpty()) {
+            // open Facebook app using facebook url
+            Uri uri = Uri.parse("fb://facewebmodal/f?href=" + facebookUrl);
+            startActivity(new Intent(Intent.ACTION_VIEW, uri));
+        } else {
+            // Facebook is not installed. Open the browser
+            Uri uri = Uri.parse(facebookUrl);
+            startActivity(new Intent(Intent.ACTION_VIEW, uri));
+        }
+    } catch (PackageManager.NameNotFoundException e) {
+        // Facebook is not installed. Open the browser
+        Uri uri = Uri.parse(facebookUrl);
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
-} catch (PackageManager.NameNotFoundException e) {
-    // Facebook is not installed. Open the browser
-    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(facebookUrl)));
 }	
         </script>
         <title>Kingston & Co Diner</title>
