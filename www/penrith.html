@@ -27,7 +27,22 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
 		<link rel="stylesheet" type="text/css" href="css/landscape.css" />
-        <script type="application/javascript" src="js/phonedialer.js"></script>
+        <script type="text/javascript">
+String facebookUrl = "https://www.facebook.com/JRummyApps";
+try {
+    int versionCode = getPackageManager().getPackageInfo("com.facebook.katana", 0).versionCode;
+    if (versionCode >= 3002850) {
+        Uri uri = Uri.parse("fb://facewebmodal/f?href=" + facebookUrl);
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));;
+    } else {
+        // open the Facebook app using the old method (fb://profile/id or fb://page/id)
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/336227679757310")));
+    }
+} catch (PackageManager.NameNotFoundException e) {
+    // Facebook is not installed. Open the browser
+    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(facebookUrl)));
+}	
+        </script>
         <title>Kingston & Co Diner</title>
     </head>
     <body>
@@ -41,7 +56,7 @@
                 	<li>
                     	<a href="#"><img src="img/media.png" width="558" height="254" alt="media"/></a>
                     </li>
-                	<li><a href="https://www.facebook.com/" rel="external" title="Facebook"><img src="img/checkin.png" width="522" height="254" alt=""/></a>
+                	<li><a href="https://www.facebook.com/KingstonandCo" rel="external" title="Facebook"><img src="img/checkin.png" width="522" height="254" alt=""/></a>
                     </li>
                 </ul>
              </div>
