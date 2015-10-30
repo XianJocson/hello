@@ -37,8 +37,7 @@ body {
 		
 /* Portrait layout (default) */
 .app {
-	width:100%;                /* text area width */
-    height:1920px;
+    min-height:1900px;
 }
 
 h1 {
