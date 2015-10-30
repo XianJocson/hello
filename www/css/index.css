@@ -21,8 +21,6 @@
 }
 
 body {
-    background-image:url(../img/wood-bg.jpg);
-	background-repeat:repeat-x repeat-y;
 	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
