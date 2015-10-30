@@ -49,7 +49,7 @@ h1 {
     font-size:50px;
     text-align:left;
 	color:#343434; 
-	padding:60px 0px 0px 60px;
+	padding:20px 0px 10px 60px;
 }
 
 h2 {
@@ -128,9 +128,9 @@ background-color:#58D474;
 	margin-left:50px;
 	}
 	
-.comment{
+.comment-img{
 	float:left;
-	padding:0px 50px 202px 50px;
+	padding:0px 50px 282px 50px;
 }
 
 p {

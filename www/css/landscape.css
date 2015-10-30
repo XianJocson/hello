@@ -28,53 +28,34 @@
 	width:80%;
 	margin:180px 0px 50px 120px;
 	}
-	
-.comment-preview{
-background-color:#FFFFFF;
-	padding:0px 0px 250px 0px;
+
+#main-container {
+	margin:50px 0px 0px 50px;
+	}
+
+.comment-container{
+	background-color:#FFFFFF;
+	padding:0px 0px 20px 0px;
 	width:85%;
-	margin:0px 0px 0px 100px;
-}
-
-.default-user-image {
-	padding:20px 0px 0px 40px;
-	width:10%;
+	float:left;
+	margin-left:50px;
 	}
 	
-.comment{
-	background-color:#DBDBDB;
+.comment-img{
+	float:left;
+	padding:0px 0px 150px 100px;
+}
+
+p {
 	color:#656565;
-	width:70%;
-	position:relative;
-	display:block;
-	padding:40px;
-	margin:-160px 0px 0px 300px;
+	background-color:#DBDBDB;
+	padding:30px;
+	margin:0px 66px 20px 0px;
+	float:right;
+	width:72%;
 	font-size:20px;
-}
-
-nav{
-	background-color:#444444;
-	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 0px; 
 	}
 	
-nav ul{
-	bottom:0;
-	position:relative;
-	width:100%;
-	height:200px;
-}
-
-nav ul li {
-float:left center;
-margin:0px 0px 0px 110px;
-list-style:none;
-}
-
-nav ul li a:hover {
-background-color:#58D474;
-}
-
 .penrith-icon{
 	margin:160px 0px 120px 150px;
 	}
@@ -153,3 +134,10 @@ input {
 	margin-top:50px;
 	width:50%;
 	}
+	
+h1 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:50px;
+    text-align:left;
+	color:#343434; 
+	padding:20px 0px 10px 60px;
