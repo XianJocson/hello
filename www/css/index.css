@@ -130,7 +130,7 @@ background-color:#58D474;
 	
 .comment-img{
 	float:left;
-	padding:0px 50px 282px 50px;
+	padding:0px 50px 232px 50px;
 }
 
 p {
@@ -142,12 +142,41 @@ p {
 	width:62%;
 	font-size:20px;
 	}
+	a {
+	display: block;
+	width: 60px;
+}
+
+a:link, a:visited {
+display: block;
+width: 120px;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #98bf21;
+text-align: center;
+padding: 4px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+a:hover, a:active {
+background-color: #7A991A;
+}
 
 ul {
-	
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
 	}
+	
 li {
-	list-style:none;
+	display:inline;
+	float:left;
+}
+	
+#nav{
+width:750px;
+margin:0 auto;
 }
 
 #screenshot{
