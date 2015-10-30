@@ -38,7 +38,7 @@ body {
 		
 /* Portrait layout (default) */
 .app {
-    min-height:1865px;
+    min-height:1855px;
 }
 
 h1 {
@@ -58,15 +58,18 @@ h2 {
 
 #icon-dish{
 	width:30%;
-	margin:150px 0px 0px 0px;
+	float:left;
+	margin:100px 0px 0px 400px;
 	}
 	
 #locations{
-	margin:90px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 	}
-	
+
 .icons {
-	padding:50px;
+	padding:20px;
+	margin:150px 0px 0px -20px;
+	width:35%;
 	}
 	
 #main-container {
@@ -142,9 +145,21 @@ p {
 
 a {
 	display: block;
-	background-color:#515151;
 	margin:50px 43px 40px 42px;
-	padding:18px;
+	padding:20px;
+	
+}
+
+ul {
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	}
+	
+.nav-link {
+	float:left;
+	background-color:#515151;
+	padding:20px;
 	
 }
 
@@ -158,21 +173,8 @@ font-size:25px;
 }
 
 a:hover, a:active {
-background-color:#913637;
+background-color:#66AD60;
 
-}
-
-ul {
-	list-style-type: none;
-	padding:0px;
-	margin:0px;
-	}
-	
-li {
-	float:left;
-	background-color:#515151;
-	padding:20px;
-	
 }
 	
 #nav{
