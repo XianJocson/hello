@@ -27,7 +27,6 @@ body {
     background-attachment:fixed;
     font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     font-size:12px;
-    height:100%;
 	color:#E5DEDF;
 }
 
@@ -38,10 +37,8 @@ body {
 		
 /* Portrait layout (default) */
 .app {
-	width:99%;                   /* text area width */
-    padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:0px;  /* offset vertical: half of image height and text area height */
-                                   /* offset horizontal: half of text area width */
+	width:100%;                /* text area width */
+    height:1920px;
 }
 
 h1 {
@@ -147,6 +144,7 @@ a {
 	display: block;
 	background-color:#515151;
 	margin:50px 43px 40px 42px;
+	padding:20px;
 	
 }
 
@@ -173,7 +171,7 @@ ul {
 li {
 	float:left;
 	background-color:#515151;
-	padding:40px;
+	padding:20px;
 }
 	
 #nav{
