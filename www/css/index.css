@@ -50,7 +50,8 @@ h1 {
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:50px;
     text-align:left;
-	padding:0px 0px 0px 0px;
+	color:#343434; 
+	padding:60px 0px 0px 60px;
 }
 
 h2 {
@@ -73,7 +74,7 @@ h2 {
 	padding:50px;
 	}
 	
-#text-wrap {
+#main-container {
 	margin:50px 0px 0px 50px;
 	}
 	
@@ -121,27 +122,28 @@ display:visible;
 background-color:#58D474;
 }
 	
-.comment-preview {
+.comment-container{
 	background-color:#FFFFFF;
-	padding:0px 0px 50px 0px;
+	padding:0px 0px 20px 0px;
 	width:85%;
-	margin:0px 0px 0px 70px;
-	}
-	
-.default-user-image {
-	padding:20px 0px 0px 20px;
+	float:left;
+	margin-left:50px;
 	}
 	
 .comment{
-	background-color:#DBDBDB;
-	color:#656565;
-	width:60%;
-	position:relative;
-	display:block;
-	padding:30px 30px 30px 30px;
-	margin:-120px 0px 0px 200px;
-	font-size:20px;
+	float:left;
+	padding:0px 50px 202px 50px;
 }
+
+p {
+	color:#656565;
+	background-color:#DBDBDB;
+	padding:30px;
+	margin:0px 66px 20px 0px;
+	float:right;
+	width:62%;
+	font-size:20px;
+	}
 
 ul {
 	
