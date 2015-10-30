@@ -26,6 +26,33 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <link rel="stylesheet" href="css/index.css" type="text/css">
+   <script>
+String facebookUrl = "https://www.facebook.com/KingstonandCo";
+try {
+    int versionCode = getPackageManager().getPackageInfo("com.facebook.katana", 0).versionCode;
+    if (versionCode >= 3002850) {
+        Uri uri = Uri.parse("fb://facewebmodal/f?href=" + facebookUrl);
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));;
+    } else {
+        // open the Facebook app using the old method (fb://profile/id or fb://page/id)
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/239901132808503")));
+    }
+} catch (PackageManager.NameNotFoundException e) {
+    // Facebook is not installed. Open the browser
+    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(facebookUrl)));
+}
+public static Intent newFacebookIntent(PackageManager pm, String url) {
+    Uri uri;
+    try {
+        pm.getPackageInfo("com.facebook.katana", 0);
+        // http://stackoverflow.com/a/24547437/1048340
+        uri = Uri.parse("fb://facewebmodal/f?href=" + url);
+    } catch (PackageManager.NameNotFoundException e) {
+        uri = Uri.parse(url);
+    }
+    return new Intent(Intent.ACTION_VIEW, uri);
+}
+   </script>
     <title>Kingston & Co Diner</title>
     </head>
     <body style="background-image:url(img/wood-bg.jpg);">
