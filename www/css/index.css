@@ -127,7 +127,7 @@ input {
 }
 
 #social-top{
-	margin:400px 0px 0px 40px;
+	margin:450px 0px 0px 40px;
 	position:absolute;
 	display:flex;
 	}
@@ -135,14 +135,14 @@ input {
 #behind-left{
 	float:left;
 	width:46%;
-	margin:0px 0px 0px -70px;
+	margin:50px 0px 0px -70px;
 	display:flex;
 	}
 	
 #behind-right{
 	float:right;
 	width:54%;
-	margin:0px 0px 0px 0px;
+	margin:50px 0px 0px 0px;
 	display:flex;
 	}
 .comment-container{
