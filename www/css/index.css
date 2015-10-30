@@ -38,8 +38,7 @@ body {
 		
 /* Portrait layout (default) */
 .app {
-    min-height:800px;
-	max-height:inherit;
+    min-height:1860px;
 }
 
 h1 {
