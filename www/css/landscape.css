@@ -41,11 +41,22 @@
 	float:left;
 	margin-left:50px;
 	}
+
+#compose-comment-container {
+	margin-top:-100px;
+	}
+	
+#form-container{
+	float:left;
+	font-size:60px;
+	margin:250px 0px 0px 0px;
+	}
+	
 	
 .comment-img{
 	float:left;
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 85px 60px;
+	margin:0px 0px 50px 60px;
 	display:block;
 	width:12%;
 }
@@ -61,38 +72,52 @@ p {
 	}
 	
 .penrith-icon{
-	margin:160px 0px 120px 150px;
+	margin:60px 0px 0px 650px;
+	width:20%;
+	float:left;
+	position:relative;
 	}
 
 .write-review{
 	display:visible; 
 	margin:0px 0px -120px -660px;
 	}
-#behind{
-	margin: 0px 0px 0px 330px;
+#container-social{
+	margin:450px 0px 0px 0px;
+	width:100%;
+	position:absolute;
+}
+
+#social-top{
+	margin:0px 0px 0px 450px;
+	position:absolute;
 	}
 	
-#behind ul{
-	width:100%;
+#behind-left{
+	float:left;
+	background-color:#855D5D;
+	margin:100px 0px 0px 337px;
+	width:0%;
+	}
+	
+#behind-right{
+	background-color:#855D5D;
+	float:right;
+	margin:100px 1024px 0px 0px;
+	width:0%;
 }
-
-
-#behind ul li {
-float:left;
-list-style:none;
-display:visible; 
-}
-
-#behind ul li a:hover {
-background-color:#58D474;
-}
-
 #screenshot{
 	background-color:#F6F6F6;
-	width:90%;
+	width:45%;
 	padding:50px;
-	margin:50px 0px 0px 20px;
+	margin:500px 0px 0px 450px;
+	display:inline-block;
 	} 
+
+#phone-icon{
+	float:left;
+	margin:35px 0px 0px 420px;
+	}
 	
 #icon-dish{
 	width:23%;
@@ -101,8 +126,8 @@ background-color:#58D474;
 	
 #locations{
 	width:100%;
-	background-color:#B33436;
 	display:inline-block;
+	position:relative;
 	}
 
 .icons {
@@ -112,15 +137,12 @@ background-color:#58D474;
 
 form {
 	padding:20px 0px 0px 0px;
-	margin:50px 0px 0px 0px;
+	margin:150px 0px 200px 650px;
 	}
-	
-form ul {
-	font-size:24px;
-	}
+
 form ul li {
 	list-style:none;
-	padding:20px 0px 10px 0px;
+	padding:20px 0px 0px 0px;
 	}
 	
 textarea {
@@ -135,17 +157,32 @@ input {
 	}
 	
 #food-for-thought-icon{
-	margin-top:50px;
-	width:50%;
+	margin-top:0px;
+	margin-left:350px;
+	width:60%;
 	}
 	
 h1 {
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size:50px;
     text-align:left;
-	color:#343434; 
+	color:#DADADA; 
 	padding:20px 0px 10px 60px;
 }
+
+h2 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:40px;
+    text-align:left;
+	color:#DADADA; 
+}
+	
+.form-head{
+	font-size:60px;
+	text-align:center;
+	color:#DADADA; 
+	margin:0px 0px 0px 300px;
+	}
 	
 ul {
 	list-style-type: none;
