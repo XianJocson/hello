@@ -16,6 +16,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+ 
+ /* App Features */
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
@@ -31,54 +33,14 @@ body {
 	height:100%;
 }
 
-#logo{
-	width:80%;
-	margin:80px 0px 50px 120px;
-	}
-		
 /* Portrait layout (default) */
 .app {
     min-height:1855px;
 }
 
-h1 {
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size:50px;
-    text-align:left;
-	color:#DADADA; 
-	padding:20px 0px 10px 60px;
-}
-
-#title {
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size:50px;
-    text-align:left;
-	color:#343434; 
-	padding:50px 0px 60px 60px;
-	font-weight:bold;
-	}
-
-h2 {
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size:16px;
-    text-align:left;
-	margin-left:70px;
-	}
-
-#icon-dish{
-	width:30%;
-	float:left;
-	margin:100px 0px 0px 400px;
-	}
-	
+/* Containers */
 #locations{
 	margin:0px 0px 0px 0px;
-	}
-
-.icons {
-	padding:20px;
-	margin:150px 0px 0px -20px;
-	width:35%;
 	}
 	
 #main-container {
@@ -90,37 +52,7 @@ h2 {
 	font-size:60px;
 	margin:250px 0px 0px 0px;
 	}
-form {
-	margin:350px 0px 0px 350px;
-	}
-	
-form ul li {
-	list-style:none;
-	font-size:30px;
-	padding:20px 0px 10px 0px;
-	}
-	
-.form-head{
-	font-size:60px;
-	text-align:center;
-	}	
-textarea {
-	color:#9D9D9D; 
-	font-size:20px; 
-	padding:30px 0px 0px 0px; 
-	}
-	
-input {
-	color:#9D9D9D;
-	padding:15px 0px 15px 20px;
-	}
-	
-#food-for-thought-icon{
-	margin-top:50px;
-	margin-left:100px;
-	float:left;
-	}
-	
+
 #container-social{
 	width: 100%;
     left: 0;
@@ -153,64 +85,34 @@ input {
 	margin-left:50px;
 	}
 	
+/* Image Attributes */
+#logo{
+	width:80%;
+	margin:80px 0px 50px 120px;
+	}
+	
+#icon-dish{
+	width:30%;
+	float:left;
+	margin:100px 0px 0px 400px;
+	}
+	
+.icons {
+	padding:20px;
+	margin:150px 0px 0px -20px;
+	width:35%;
+	}
+
+#food-for-thought-icon{
+	margin-top:50px;
+	margin-left:100px;
+	float:left;
+	}
+	
 .comment-img{
 	float:left;
 	padding:0px 0px 205px 45px;
 }
-
-p {
-	color:#656565;
-	background-color:#DBDBDB;
-	padding:30px;
-	margin:0px 66px 20px 0px;
-	float:right;
-	width:62%;
-	font-size:20px;
-	}
-
-a {
-	display: block;
-	margin:50px 43px 40px 42px;
-	padding:20px;
-	
-}
-
-ul {
-	list-style-type: none;
-	padding:0px;
-	margin:0px;
-	}
-	
-.nav-link {
-	float:left;
-	background-color:#515151;
-	padding:30px 6px 30px 0px;
-	
-}
-
-a:link, a:visited {
-display:inline;
-color: #FFFFFF;
-text-decoration: none;
-text-transform: uppercase;
-font-size:33px;
-
-}
-
-a:hover, a:active {
-background-color:#66AD60;
-
-
-}
-	
-#nav{
-    width: 100%;
-	display:block;
-	position:absolute;
-	bottom: 0;
-    left: 0;
-	
-	}
 
 #screenshot{
 	background-color:#F6F6F6;
@@ -231,5 +133,107 @@ background-color:#66AD60;
 	float:left;
 	margin:100px 0px 20px 350px;
 	position:relative;
+	
+	}
+/* Font Attributes */
+h1 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:50px;
+    text-align:left;
+	color:#DADADA; 
+	padding:20px 0px 10px 60px;
+}
+
+#title {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:50px;
+    text-align:left;
+	color:#343434; 
+	padding:50px 0px 60px 60px;
+	font-weight:bold;
+	}
+
+h2 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    text-align:left;
+	margin-left:70px;
+	}
+
+.form-head{
+	font-size:60px;
+	text-align:center;
+	}
+/* Form Attributes */
+form {
+	margin:350px 0px 0px 350px;
+	}
+	
+form ul li {
+	list-style:none;
+	font-size:30px;
+	padding:20px 0px 10px 0px;
+	}
+		
+textarea {
+	color:#9D9D9D; 
+	font-size:20px; 
+	padding:30px 0px 0px 0px; 
+	}
+	
+input {
+	color:#9D9D9D;
+	padding:15px 0px 15px 20px;
+	}
+	
+
+p {
+	color:#656565;
+	background-color:#DBDBDB;
+	padding:30px;
+	margin:0px 66px 20px 0px;
+	float:right;
+	width:62%;
+	font-size:20px;
+	}
+
+ul {
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	}
+	
+.nav-link {
+	float:left;
+	background-color:#515151;
+	padding:30px 6px 30px 0px;
+}
+
+a {
+	display: block;
+	margin:50px 43px 40px 42px;
+	padding:20px;
+}
+
+a:link, a:visited {
+display:inline;
+color: #FFFFFF;
+text-decoration: none;
+text-transform: uppercase;
+font-size:33px;
+
+}
+
+a:hover, a:active {
+background-color:#66AD60;
+}
+	
+/* Navigation Attributes*/
+#nav{
+    width: 100%;
+	display:block;
+	position:absolute;
+	bottom: 0;
+    left: 0;
 	
 	}
