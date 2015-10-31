@@ -19,7 +19,7 @@
  
  /* App Features */
 /* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+@media screen and (min-aspect-ratio: 1/1) and (min-width:0px) {
     .app {
         background-position:left center;
         padding:0px;     
@@ -44,14 +44,17 @@
 	
 .comment-img{
 	float:left;
-	padding:0px 0px 100px 100px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 85px 60px;
+	display:block;
+	width:12%;
 }
 
 p {
 	color:#656565;
 	background-color:#DBDBDB;
 	padding:30px;
-	margin:0px 66px 20px 0px;
+	margin:0px 66px 50px 0px;
 	float:right;
 	width:72%;
 	font-size:20px;
@@ -93,19 +96,19 @@ background-color:#58D474;
 	
 #icon-dish{
 	width:23%;
-	margin:150px 0px 0px 0px;
+	margin:150px 0px 0px 700px;
 	}
 	
 #locations{
-	margin:90px 0px 0px 0px;
+	width:100%;
+	background-color:#B33436;
+	display:inline-block;
 	}
 
 .icons {
-	padding:0px 50px 150px 58px;
+	padding:0px 0px 0px 0px;
 	width:19%;
 	}
-}
-
 
 form {
 	padding:20px 0px 0px 0px;
@@ -147,18 +150,16 @@ h1 {
 ul {
 	list-style-type: none;
 	padding:0px;
-	margin:0px;
 	}
 	
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:30px 6px 30px 0px;
+	padding:30px 116px 30px 100px;
 }
 
 a {
 	display: block;
-	margin:50px 163px 40px 132px;
 	padding:20px;
 }
 
@@ -178,8 +179,9 @@ background-color:#66AD60;
 /* Navigation Attributes*/
 #nav{
 	width:100%;
-	position:absolute;
+	position:fixed;
+	display:inline-block;
 	left:0;
-	bottom: 0;
-	
+	bottom:0;
 	}
+}
