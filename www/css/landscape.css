@@ -137,7 +137,7 @@ p {
 
 form {
 	padding:20px 0px 0px 0px;
-	margin:150px 0px 200px 650px;
+	margin:150px 0px 200px 200px;
 	}
 
 form ul li {
@@ -160,6 +160,12 @@ input {
 	margin-top:0px;
 	margin-left:350px;
 	width:60%;
+	}
+	
+#penrith-seat-outline{
+	margin:100px 0px 0px -35px;
+	width:50%;
+	margin-left:500px;
 	}
 	
 h1 {
