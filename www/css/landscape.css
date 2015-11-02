@@ -42,7 +42,7 @@
 	padding-bottom:2.0em;
 	width:85%;
 	float:left;
-	margin-bottom:0.0em;
+	margin-bottom:2.0em;
 	margin-left:0.0em;
 	margin-right:0.0em;
 	margin-top:0.0em;
@@ -67,7 +67,6 @@
 	
 .comment-img{
 	float:left;
-	padding:0px 0px 0px 0px;
 	margin:0px 0px 50px 60px;
 	display:block;
 	width:12%;
@@ -129,7 +128,7 @@ p {
 
 #phone-icon{
 	float:left;
-	margin-bottom:5.0em;
+	margin-bottom:10.0em;
 	margin-left:12.0em;
 	margin-right:0.0em;
 	margin-top:2.0em;
@@ -149,7 +148,6 @@ p {
 	margin-left:4.0em;
 	margin-right:0.0em;
 	margin-top:0.0em;
-	background-color:#85494A;
 	}
 	
 .icons {
@@ -158,7 +156,6 @@ p {
 	margin-left:1.2em;
 	margin-right:1.3em;
 	margin-top:2.0em;
-	background-color:#9E6B6C;
 	}
 
 form {
@@ -194,7 +191,7 @@ input {
 #compose-comment{
 	margin-bottom:0.0em;
 	margin-right:0.0em;
-	margin-left:20.0em;
+	margin-left:30.0em;
 	margin-top:0.0em;
 	}
 #food-for-thought-icon{

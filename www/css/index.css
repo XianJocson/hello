@@ -71,7 +71,13 @@ body {
 	margin-right:0.0em;
 	margin-top:0.0em;
 	}
-	
+
+#compose-comment{
+	margin-bottom:0.0em;
+	margin-right:0.0em;
+	margin-left:6.5em;
+	margin-top:0.0em;
+	}
 #container-social{
 	position:relative;
 }
