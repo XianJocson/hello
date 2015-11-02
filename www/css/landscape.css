@@ -240,7 +240,11 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:30px 116px 30px 100px;
+	padding-bottom:1.0em;
+	padding-top:1.0em;
+	padding-left:5.0em;
+	padding-right:5.0em;
+	width:6%;
 }
 
 a {
@@ -252,7 +256,7 @@ display:inline;
 color: #FFFFFF;
 text-decoration: none;
 text-transform: uppercase;
-font-size:33px;
+font-size:43px;
 
 }
 
@@ -267,5 +271,13 @@ background-color:#66AD60;
 	display:inline-block;
 	left:0;
 	bottom:0;
+	padding-left:0.0em;
+	padding-right:0.0em;
+	padding-top:0.0em;
+	padding-bottom:0.0em;
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-top:.0em;
+	margin-bottom:.0em;
 	}
 }

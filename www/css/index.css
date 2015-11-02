@@ -279,8 +279,8 @@ ul {
 	background-color:#515151;
 	padding-bottom:1.0em;
 	padding-top:1.0em;
-	padding-left:2.0em;
-	padding-right:2.0em;
+	padding-left:2.5em;
+	padding-right:3.0em;
 }
 
 a {
@@ -289,10 +289,6 @@ a {
 	margin-right:0.0em;
 	margin-top:0.0em;
 	margin-bottom:.0em;
-	/*
-	margin:50px 43px 40px 42px;
-	padding:20px;
-	*/
 }
 
 a:link, a:visited {
@@ -311,9 +307,16 @@ background-color:#66AD60;
 /* Navigation Attributes*/
 #nav{
     width: 100%;
-	display:block;
-	position:relative;
-	bottom: 0;
-    left: 0;
-	
+	position:fixed;
+	display:inline-block;
+	bottom:0;
+	left:0;
+	padding-left:0.0em;
+	padding-right:0.0em;
+	padding-top:0.0em;
+	padding-bottom:0.0em;
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-top:.0em;
+	margin-bottom:.0em;
 	}
