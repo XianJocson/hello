@@ -61,7 +61,7 @@ body {
 	width:70%;
 	margin-bottom:0.0em;
 	margin-right:0.0em;
-	margin-left:3.5em;
+	margin-left:3.0em;
 	margin-top:2.0em;
 	}
 
@@ -75,8 +75,9 @@ body {
 #compose-comment{
 	margin-bottom:0.0em;
 	margin-right:0.0em;
-	margin-left:6.5em;
+	margin-left:10.5em;
 	margin-top:0.0em;
+	background-color:#935C5D;
 	}
 #container-social{
 	position:relative;
@@ -212,7 +213,7 @@ h2 {
 /* Form Attributes */
 form {
 	margin-bottom:2.0em;
-	margin-left:5.0em;
+	margin-left:2.0em;
 	margin-right:0.0em;
 	margin-top:2.0em;
 	width:50%;
