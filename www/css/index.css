@@ -57,7 +57,7 @@ body {
 	
 #form-container{
 	float:left;
-	font-size:60px;
+	font-size:30px;
 	width:70%;
 	margin-bottom:0.0em;
 	margin-right:0.0em;
@@ -65,19 +65,11 @@ body {
 	margin-top:2.0em;
 	}
 
-#compose-comment-container {
-	margin-bottom:0.0em;
-	margin-left:3.0em;
-	margin-right:0.0em;
-	margin-top:0.0em;
-	}
-
 #compose-comment{
 	margin-bottom:0.0em;
 	margin-right:0.0em;
-	margin-left:10.5em;
-	margin-top:0.0em;
-	background-color:#935C5D;
+	margin-left:18.5em;
+	margin-top:5.0em;
 	}
 #container-social{
 	position:relative;
@@ -132,10 +124,10 @@ body {
 	
 .icons {
 	width:35%;
-	margin-bottom:2.0em;
+	margin-bottom:5.0em;
 	margin-left:2.0em;
 	margin-right:2.0em;
-	margin-top:0.0em;
+	margin-top:2.0em;
 	}
 
 #food-for-thought-icon{
@@ -145,6 +137,7 @@ body {
 	margin-right:0.0em;
 	float:left;
 	width:90%;
+	position:relative;
 	}
 	
 .comment-img{
@@ -230,10 +223,10 @@ form ul li {
 	
 #compose-comment textarea{
 	color:#9D9D9D; 
-	font-size:18px;
+	font-size:20px;
 	padding-bottom:10.0em;
 	padding-left:1.5em;
-	padding-right:10.0em;
+	padding-right:15.0em;
 	padding-top:3.0em;
 	}	
 textarea {
@@ -268,10 +261,6 @@ p {
 
 ul {
 	list-style-type: none;
-	padding:2.0em;
-	margin-left:0.0em;
-	margin-right:0.0em;
-	margin-bottom:0.0em;
 	}
 	
 .nav-link {
