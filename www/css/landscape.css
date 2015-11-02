@@ -32,20 +32,18 @@
 /* Containers */
 #main-container {
 	margin-bottom:3.0em;
-	margin-left:6.0em;
-	margin-right:-5.0em;
+	margin-left:3.0em;
+	margin-right:-2.0em;
 	margin-top:2.0em;
 	}
 
 .comment-container{
 	background-color:#FFFFFF;
-	padding-bottom:2.0em;
-	width:85%;
+	padding-bottom:2%;
+	width:93%;
 	float:left;
-	margin-bottom:2.0em;
-	margin-left:0.0em;
-	margin-right:0.0em;
-	margin-top:0.0em;
+	margin-bottom:2%;
+	margin-top:10%;
 	}
 
 #compose-comment-container {
@@ -67,18 +65,17 @@
 	
 .comment-img{
 	float:left;
-	margin:0px 0px 50px 60px;
-	display:block;
-	width:12%;
+	width:14%;
+	margin:0% 4% 0% 0%;
 }
 
 p {
 	color:#656565;
 	background-color:#DBDBDB;
-	padding:30px;
-	margin:0px 66px 50px 0px;
-	float:right;
-	width:72%;
+	margin:0% 5% 5% 5%;
+	padding:3%;
+	float:left;
+	width:80%;
 	font-size:20px;
 	}
 	
@@ -137,10 +134,8 @@ p {
 	
 #icon-dish{
 	width:23%;
-	margin-bottom:0.0em;
-	margin-left:60.0em;
-	margin-right:50.0em;
-	margin-top:5.0em;
+	float:left;
+	margin:10% 10% 0% 44%;
 	}
 	
 #locations{
@@ -153,10 +148,7 @@ p {
 	
 .icons {
 	width:19%;
-	margin-bottom:0.0em;
-	margin-left:1.0em;
-	margin-right:1.5em;
-	margin-top:2.0em;
+	margin: 10% 1% 10% 4%;
 	}
 
 form {

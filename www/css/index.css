@@ -41,10 +41,7 @@ body {
 
 /* Containers */
 #locations{
-	margin-bottom:0.0em;
-	margin-left:2.4em;
-	margin-right:0.0em;
-	margin-top:0.0em;
+	margin:0% 0% 0% 5%;
 	width:90%;
 	}
 	
@@ -99,10 +96,10 @@ body {
 .comment-container{
 	background-color:#FFFFFF;
 	padding-bottom:2%;
-	width:85%;
+	width:93%;
 	float:left;
 	margin-bottom:2%;
-	margin-top:5%;
+	margin-top:10%;
 	}
 	
 /* Image Attributes */
@@ -115,18 +112,12 @@ body {
 #icon-dish{
 	width:30%;
 	float:left;
-	margin-bottom:4.0em;
-	margin-left:30.5em;
-	margin-right:0.0em;
-	margin-top:4.0em;
+	margin:10% 0% 0% 35%;
 	}
 	
 .icons {
 	width:35%;
-	margin-bottom:5.0em;
-	margin-left:2.0em;
-	margin-right:2.0em;
-	margin-top:2.0em;
+	margin: 7%;
 	}
 
 #food-for-thought-icon{
@@ -142,8 +133,7 @@ body {
 .comment-img{
 	float:left;
 	width:14%;
-	margin-bottom:15%;
-	margin-left:5%;
+	margin:0% 4% 11% 0%;
 }
 
 #screenshot{
@@ -247,10 +237,10 @@ input {
 p {
 	color:#656565;
 	background-color:#DBDBDB;
-	margin:0% 5% 1% 0%;
+	margin:0% 5% 5% 7%;
 	padding:3%;
-	float:right;
-	width:62%;
+	float:left;
+	width:80%;
 	font-size:20px;
 	}
 
