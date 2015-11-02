@@ -118,7 +118,7 @@ body {
 	width:30%;
 	float:left;
 	margin-bottom:4.0em;
-	margin-left:15.5em;
+	margin-left:30.5em;
 	margin-right:0.0em;
 	margin-top:4.0em;
 	}
@@ -269,8 +269,7 @@ ul {
 	
 .nav-link {
 	float:left;
-	background-color:#515151;/*
-	padding:30px 6px 30px 0px;*/
+	background-color:#515151;
 	padding-bottom:1.0em;
 	padding-top:1.0em;
 	padding-left:2.0em;
