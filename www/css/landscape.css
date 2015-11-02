@@ -27,14 +27,11 @@
 
 #logo{
 	width:80%;
-	margin:180px 0px 50px 120px;
+	margin:10% 0% 0% 10%;
 	}
 /* Containers */
 #main-container {
-	margin-bottom:3.0em;
-	margin-left:3.0em;
-	margin-right:-2.0em;
-	margin-top:2.0em;
+	margin: 0% 0% 0% 0%;
 	}
 
 .comment-container{
@@ -118,20 +115,21 @@ p {
 #icon-dish{
 	width:23%;
 	float:left;
-	margin:10% 10% 0% 44%;
+	margin:10% 10% 0% 35%;
+	position:relative;
 	}
 	
 #locations{
-	width:100%;
-	margin-bottom:2.0em;
-	margin-left:0.0em;
-	margin-right:0.0em;
-	margin-top:0.0em;
+	float:left;
+	width:90%;
+	margin:5% 0% 0% 0%;
+	position:relative;
 	}
 	
 .icons {
-	width:19%;
-	margin: 10% 1% 10% 4%;
+	width:20%;
+	margin: 0% 0% 10% 9%;
+	position:relative;
 	}
 
 form {
@@ -231,7 +229,6 @@ color: #FFFFFF;
 text-decoration: none;
 text-transform: uppercase;
 font-size:43px;
-padding:10%;
 
 }
 

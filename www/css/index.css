@@ -235,7 +235,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:1% 2% 1% 1%;
+	padding:1% 1% 1% 1%;
 	margin:0% 0% 0% 0%;
 }
 
@@ -250,6 +250,7 @@ color: #FFFFFF;
 text-decoration: none;
 text-transform: uppercase;
 font-size:3.0em;
+padding:10%;
 
 }
 
