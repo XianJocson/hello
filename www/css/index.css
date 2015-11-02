@@ -36,6 +36,7 @@ body {
 /* Portrait layout (default) */
 .app {
     min-height:1855px;
+	min-width:200px;
 }
 
 /* Containers */
@@ -44,7 +45,10 @@ body {
 	}
 	
 #main-container {
-	margin:50px 0px 0px 50px;
+	margin-bottom:0.0em;
+	margin-left:3.0em;
+	margin-right:-3.0em;
+	margin-top:0.0em;
 	}
 	
 #form-container{
@@ -58,35 +62,39 @@ body {
 	}
 	
 #container-social{
-	width: 100%;
-    left: 0;
+	position:relative;
 }
 
 #social-top{
-	margin:450px 0px 0px 40px;
-	position:absolute;
-	display:flex;
+	margin-top:1.0em;
+	margin-left:3.5em;
+	position:relative;
 	}
 	
 #behind-left{
 	float:left;
-	width:46%;
-	margin:50px 0px 0px -70px;
-	display:flex;
+	width:50%;
+	margin-bottom:0.0em;
+	margin-left:0.4em;
+	margin-top:-3.0em;
 	}
 	
 #behind-right{
 	float:right;
-	width:54%;
-	margin:50px 0px 0px 0px;
-	display:flex;
+	width:47%;
+	margin-bottom:0.0em;
+	margin-right:0.5em;
+	margin-top:-3.0em;
 	}
 .comment-container{
 	background-color:#FFFFFF;
-	padding:0px 0px 20px 0px;
+	padding-bottom:2.0em;
 	width:85%;
 	float:left;
-	margin-left:50px;
+	margin-bottom:2.0em;
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-top:2.0em;
 	}
 	
 /* Image Attributes */
@@ -124,7 +132,8 @@ body {
 	background-color:#F6F6F6;
 	width:90%;
 	padding:50px;
-	margin:0px 0px 0px 5px;
+	margin-top:3.0em;
+	margin-left:0.1em;
 	} 
 #penrith-seat-outline{
 	margin:100px 0px 0px -35px;
@@ -205,20 +214,32 @@ p {
 
 ul {
 	list-style-type: none;
-	padding:0px;
-	margin:0px;
+	padding:2.0em;
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-bottom:0.0em;
 	}
 	
 .nav-link {
 	float:left;
-	background-color:#515151;
-	padding:30px 6px 30px 0px;
+	background-color:#515151;/*
+	padding:30px 6px 30px 0px;*/
+	padding-bottom:1.0em;
+	padding-top:1.0em;
+	padding-left:2.0em;
+	padding-right:2.0em;
 }
 
 a {
 	display: block;
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-top:0.0em;
+	margin-bottom:.0em;
+	/*
 	margin:50px 43px 40px 42px;
 	padding:20px;
+	*/
 }
 
 a:link, a:visited {
@@ -238,7 +259,7 @@ background-color:#66AD60;
 #nav{
     width: 100%;
 	display:block;
-	position:absolute;
+	position:relative;
 	bottom: 0;
     left: 0;
 	

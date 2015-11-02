@@ -19,7 +19,7 @@
  
  /* App Features */
 /* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:0px) {
+@media screen and (min-aspect-ratio: 1/1) and (min-width:200px) {
     .app {
         background-position:left center;
         padding:0px;     
@@ -31,15 +31,21 @@
 	}
 /* Containers */
 #main-container {
-	margin:50px 0px 0px 50px;
+	margin-bottom:3.0em;
+	margin-left:6.0em;
+	margin-right:-5.0em;
+	margin-top:2.0em;
 	}
 
 .comment-container{
 	background-color:#FFFFFF;
-	padding:0px 0px 20px 0px;
+	padding-bottom:2.0em;
 	width:85%;
 	float:left;
-	margin-left:50px;
+	margin-bottom:0.0em;
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-top:0.0em;
 	}
 
 #compose-comment-container {
@@ -83,40 +89,43 @@ p {
 	margin:0px 0px -120px -660px;
 	}
 #container-social{
-	margin:450px 0px 0px 0px;
 	width:100%;
-	position:absolute;
+	position:relative;
 }
 
 #social-top{
-	margin:0px 0px 0px 450px;
-	position:absolute;
+	margin-top:1.0em;
+	margin-left:12.0em;
+	width:55%;
 	}
 	
 #behind-left{
 	float:left;
-	background-color:#855D5D;
-	margin:100px 0px 0px 337px;
-	width:0%;
+	margin-bottom:0.0em;
+	margin-left:6.3em;
+	width:40%;
 	}
 	
 #behind-right{
-	background-color:#855D5D;
-	float:right;
-	margin:100px 1024px 0px 0px;
-	width:0%;
+	margin-bottom:0.0em;
+	margin-right:6.3em;
+	width:38%;
 }
 #screenshot{
 	background-color:#F6F6F6;
-	width:45%;
-	padding:50px;
-	margin:500px 0px 0px 450px;
-	display:inline-block;
+	width:70%;
+	margin-bottom:0.0em;
+	margin-left:10.0em;
+	margin-right:0.0em;
+	margin-top:3.0em;
 	} 
 
 #phone-icon{
 	float:left;
-	margin:35px 0px 0px 420px;
+	margin-bottom:4.0em;
+	margin-left:12.0em;
+	margin-right:0.0em;
+	margin-top:2.0em;
 	}
 	
 #icon-dish{
