@@ -44,6 +44,7 @@ body {
 	margin:5% 0% 0% 0%;
 	width:100%;
 	float:left;
+	background-color:#8F2729;
 	}
 
 #main-container {
@@ -113,7 +114,7 @@ body {
 .icons {
 	width:35%;
 	float:left;
-	margin:5% 0% 5% 10%;
+	margin:5% 5% 5% 5%;
 	background-color:#9F6C6D;
 	}
 
@@ -218,7 +219,7 @@ p {
 	padding:3%;
 	float:left;
 	width:80%;
-	font-size:20px;
+	font-size:2.0em;
 	}
 
 ul {
@@ -228,7 +229,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:0%;
+	padding:1% 1% 1% 1%;
 	margin:0% 0% 0% 0%;
 }
 
