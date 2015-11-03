@@ -133,33 +133,15 @@ p {
 	
 #locations{
 	float:left;
-	background-color:#61A475;
 	margin:5% 0% 10% 5%;
 	}
 	
 .icons {
 	width:20%;
 	float:left;
-	background-color:#8FCED3;
 	margin:0% 0% 0% 4%;
 	}
 
-form {
-	margin-bottom:2.0em;
-	margin-left:5.0em;
-	margin-right:0.0em;
-	margin-top:2.0em;
-	width:50%;
-	}
-
-form ul li {
-	list-style:none;
-	padding-bottom:1.5em;
-	padding-left:5.0em;
-	padding-right:0.0em;
-	padding-top:0.0em;
-	}
-	
 #logon-form {
 	margin:9% 0% 0% 35%;
 	padding:0% 0% 0% 0%;
