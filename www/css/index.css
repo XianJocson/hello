@@ -41,8 +41,9 @@ body {
 
 /* Containers */
 #locations{
-	margin:0% 0% 0% 5%;
+	margin:0% 0% 0% 0%;
 	width:90%;
+	background-color:#956263;
 	}
 	
 #main-container {
@@ -111,7 +112,8 @@ body {
 	
 .icons {
 	width:35%;
-	margin: 7%;
+	position:relative;
+	float:left;
 	}
 
 #food-for-thought-icon{
