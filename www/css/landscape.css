@@ -103,7 +103,7 @@ p {
 	width:80%;
 	float:left;
 	padding:4%;
-	margin:5% 0% 0% 2%;
+	margin:5% 0% 0% 6%;
 	} 
 
 #phone-icon{
@@ -120,10 +120,15 @@ p {
 	
 #locations{
 	float:left;
+	background-color:#61A475;
+	margin:5% 0% 0% 2%;
 	}
 	
 .icons {
 	width:20%;
+	float:left;
+	background-color:#8FCED3;
+	margin:0% 0% 0% 5%;
 	}
 
 form {
