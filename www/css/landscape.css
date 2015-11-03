@@ -115,21 +115,15 @@ p {
 #icon-dish{
 	width:23%;
 	float:left;
-	margin:10% 10% 0% 35%;
 	position:relative;
 	}
 	
 #locations{
 	float:left;
-	width:90%;
-	margin:5% 0% 0% 0%;
-	position:relative;
 	}
 	
 .icons {
 	width:20%;
-	margin: 0% 0% 10% 9%;
-	position:relative;
 	}
 
 form {
