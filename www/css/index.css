@@ -42,10 +42,9 @@ body {
 /* Containers */
 #locations{
 	margin:0% 0% 0% 0%;
-	width:90%;
-	background-color:#956263;
+	width:100%;
 	}
-	
+
 #main-container {
 	margin: 0% 0% 0% 0%;
 	}
@@ -112,7 +111,6 @@ body {
 	
 .icons {
 	width:35%;
-	position:relative;
 	float:left;
 	}
 
@@ -227,7 +225,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:1% 1% 1% 1%;
+	padding:0%;
 	margin:0% 0% 0% 0%;
 }
 
@@ -239,7 +237,6 @@ a:link, a:visited {
 color: #FFFFFF;
 text-decoration: none;
 text-transform: uppercase;
-font-size:3.0em;
 
 }
 
