@@ -50,11 +50,12 @@
 #form-container{
 	float:left;
 	font-size:60px;
-	margin:5% 0% 0% 10%;
+	margin:5% 0% 20% 10%;
 	}
 
 #form-compose-comment {
 	margin:0% 10% 0% 25%;
+	margin-bottom:20%;
 	width:auto;
 	}
 
@@ -200,7 +201,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:0% 6% 0% 7%;
+	padding:2% 6% 0% 7%;
 	margin:0% 0% 0% 0%;
 }
 
@@ -211,7 +212,7 @@ ul {
 #brand{
 	max-width:80%;
 	display:flex;
-	margin-top:-5.0em;
+	margin-top:-4.0em;
 	}
 
 a {
@@ -238,7 +239,7 @@ background-color:#66AD60;
 	left:0;
 	bottom:0;
 	padding:0% 0% 0% 0%;
-	margin:0% 0% 0% 0%;
+	margin:20% 0% 0% 0%;
 	font-size:2.5em;
 	}
 }
