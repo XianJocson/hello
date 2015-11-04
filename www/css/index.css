@@ -44,7 +44,6 @@ body {
 	margin:0% 0% 0% 0%;
 	width:95%;
 	float:left;
-	background-color:#BA4446;
 	}
 
 #main-container {
@@ -115,9 +114,9 @@ body {
 	
 .icons {
 	min-width:10%;
-	max-width:39%;
+	max-width:40%;
 	float:left;
-	margin:10% 0% 10% 5%;
+	margin:10% 0% 10% 7%;
 	}
 
 #food-for-thought-icon{
@@ -231,9 +230,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding-left:1%;
-	padding-right:5%;
-	padding-top:2%;
+	padding:1% 5% 2% 5%;
 	margin:0% 0% 0% 0%;
 }
 
