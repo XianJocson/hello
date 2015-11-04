@@ -102,8 +102,7 @@ body {
 	}
 #brand{
 	max-width:80%;
-	display:flex;
-	margin-top:-6.0em;
+	margin-top:-5.0em;
 	}
 
 #icon-dish{
@@ -197,7 +196,7 @@ h2 {
 #form-compose-comment ul li{
 	color:#9D9D9D; 
 	font-size:2.0em;
-	margin:0% 00% 2% 21%;
+	margin:0% 00% 0% 21%;
 	padding:0% 0% 00% 0%;
 	}	
 	
@@ -229,7 +228,9 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:1% 5% 0% 2%;
+	padding-left:1%;
+	padding-right:5%;
+	padding-top:2%;
 	margin:0% 0% 0% 0%;
 }
 
