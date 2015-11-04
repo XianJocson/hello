@@ -103,6 +103,7 @@ body {
 #brand{
 	max-width:80%;
 	display:flex;
+	margin-top:-8.0em;
 	}
 
 #icon-dish{
@@ -234,7 +235,6 @@ ul {
 
 .nav-brand{
 	float:left;
-	margin-top:-4.7em;
 	}
 
 a {
@@ -261,4 +261,5 @@ background-color:#66AD60;
 	float:left;
 	height:auto;
 	background-color:#515151;
+	font-size:1.5em;
 	}
