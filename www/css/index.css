@@ -101,8 +101,11 @@ body {
 	margin-top:10%;
 	}
 #brand{
-	width:5%;
-	
+	max-width:5%;
+	height:auto;
+	vertical-align:middle;	
+	border:0;
+	margin-top:5%;
 	}
 
 #icon-dish{
@@ -228,7 +231,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:1% 1% 1% 1%;
+	padding:1%;
 	margin:0% 0% 0% 0%;
 }
 
@@ -251,10 +254,9 @@ background-color:#66AD60;
 #nav{
     width: 100%;
 	position:fixed;
-	display:inline-block;
 	bottom:0;
 	left:0;
 	float:left;
-	margin:0% 0% 0% 0%;
-	padding:0% 0% 0% 0%;
+	height:auto;
+	background-color:#515151;
 	}
