@@ -101,11 +101,8 @@ body {
 	margin-top:10%;
 	}
 #brand{
-	max-width:5%;
-	height:auto;
-	vertical-align:middle;	
-	border:0;
-	margin-top:5%;
+	max-width:80%;
+	display:flex;
 	}
 
 #icon-dish{
@@ -234,6 +231,11 @@ ul {
 	padding:1%;
 	margin:0% 0% 0% 0%;
 }
+
+.nav-brand{
+	float:left;
+	margin-top:-4.7em;
+	}
 
 a {
 	display: block;
