@@ -42,7 +42,7 @@ body {
 /* Containers */
 #locations{
 	margin:0% 0% 0% 0%;
-	width:100%;
+	width:95%;
 	float:left;
 	}
 
@@ -225,8 +225,7 @@ p {
 	padding:3%;
 	float:left;
 	width:80%;
-	min-font-size:20px;
-	max-font-size:40px;
+	font-size:24px;
 	}
 
 ul {
@@ -291,6 +290,6 @@ background-color:#66AD60;
 }
 
 h1 {
-    font-size:3.0em;
+    font-size:20px;
 }
 	}
