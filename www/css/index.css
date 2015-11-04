@@ -102,6 +102,7 @@ body {
 	margin-top:10%;
 	}
 #brand{
+	min-width:10%;
 	max-width:80%;
 	margin-top:-5.0em;
 	}
@@ -113,7 +114,8 @@ body {
 	}
 	
 .icons {
-	width:auto;
+	min-width:10%;
+	max-width:39%;
 	float:left;
 	margin:10% 0% 10% 5%;
 	}
