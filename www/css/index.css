@@ -103,7 +103,7 @@ body {
 #brand{
 	max-width:80%;
 	display:flex;
-	margin-top:-6.5em;
+	margin-top:-6.0em;
 	}
 
 #icon-dish{
@@ -262,4 +262,5 @@ background-color:#66AD60;
 	height:auto;
 	background-color:#515151;
 	font-size:2.0em;
+	margin:10% 0% 0% 0%;
 	}
