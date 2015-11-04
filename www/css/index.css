@@ -66,15 +66,15 @@ body {
 	width:auto;
 	}
 #container-social{
-	position:relative;
 	margin:0% 0% 0% 0%;
+	float:left;
 }
 
 #social-top{
 	margin:0% 0% -6.5em 11%;
 	position:relative;
 	max-width:100%;
-	min-width:10%;
+	min-width:1%;
 	}
 	
 #behind-left{
@@ -149,7 +149,7 @@ body {
 	float:left;
 	margin:5% 0% 0% 3%;
 	max-width:100%;
-	min-width:10%;
+	min-width:1%;
 	}
 .penrith-icon {
 	width:30%;
@@ -224,7 +224,7 @@ p {
 	padding:3%;
 	float:left;
 	width:80%;
-	font-size:2.0em;
+	font-size:20px;
 	}
 
 ul {
@@ -265,7 +265,7 @@ background-color:#66AD60;
 	left:0;
 	float:left;
 	background-color:#515151;
-	font-size:2.0em;
+	font-size:20px;
 	margin:0% 0% 0% 0%;
 	margin-top:10%;
 }
