@@ -43,6 +43,7 @@ body {
 #locations{
 	margin:0% 0% 0% 0%;
 	width:100%;
+	background-color:#AB3E40;
 	float:left;
 	}
 
@@ -116,8 +117,7 @@ body {
 	}
 	
 .icons {
-	min-width:10%;
-	max-width:30%;
+	max-width:50%;
 	float:left;
 	margin:10% 0% 10% 7%;
 	}
@@ -266,7 +266,6 @@ background-color:#66AD60;
 	left:0;
 	float:left;
 	background-color:#515151;
-	font-size:30px;
+	font-size:25px;
 	margin:0% 0% 0% 0%;
-	margin-top:10%;
 }
