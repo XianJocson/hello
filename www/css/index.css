@@ -43,7 +43,6 @@ body {
 #locations{
 	margin:0% 0% 0% 0%;
 	width:100%;
-	background-color:#AB3E40;
 	float:left;
 	}
 
@@ -266,6 +265,6 @@ background-color:#66AD60;
 	left:0;
 	float:left;
 	background-color:#515151;
-	font-size:25px;
+	font-size:20px;
 	margin:0% 0% 0% 0%;
 }
