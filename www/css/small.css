@@ -1,4 +1,9 @@
 @media screen and (max-width: 520px) {
+/* Portrait layout (default) */
+.app {
+    max-height:1855px;
+}
+
 	#nav{
     width: 100%;
 	position:fixed;
