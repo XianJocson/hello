@@ -245,6 +245,7 @@ background-color:#66AD60;
 	margin-right:0%;
 	margin-bottom:0%;
 	margin-top:0%;
-	font-size:20px;
+	max-font-size:40px;
+	min-font-size:20px;
 	}
 }
