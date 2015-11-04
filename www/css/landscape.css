@@ -146,6 +146,7 @@ p {
 #logon-form {
 	margin:9% 0% 10% 35%;
 	padding:0% 0% 0% 0%;
+	font-size:1.0em;
 	}
 #compose-comment textarea {
 	color:#9D9D9D; 
