@@ -89,7 +89,7 @@ body {
 .comment-container{
 	background-color:#FFFFFF;
 	padding-bottom:2%;
-	margin:10% 0% 10% 4%;
+	margin:10% 0% 25% 4%;
 	width:93%;
 	float:left;
 	}
@@ -228,7 +228,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:1%;
+	padding:1% 2% 0% 0%;
 	margin:0% 0% 0% 0%;
 }
 
