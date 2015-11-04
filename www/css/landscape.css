@@ -75,7 +75,7 @@
 
 p {
 	color:#656565;
-	background-color:#DBDBDB;
+	background-color:#EEEEEE;
 	margin:0% 5% 5% 5%;
 	padding:3%;
 	float:left;
@@ -200,7 +200,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:1% 5% 0% 5%;
+	padding:0% 6% 0% 7%;
 	margin:0% 0% 0% 0%;
 }
 
@@ -239,5 +239,6 @@ background-color:#66AD60;
 	bottom:0;
 	padding:0% 0% 0% 0%;
 	margin:0% 0% 0% 0%;
+	font-size:2.5em;
 	}
 }

@@ -103,7 +103,7 @@ body {
 #brand{
 	max-width:80%;
 	display:flex;
-	margin-top:-8.0em;
+	margin-top:-6.5em;
 	}
 
 #icon-dish{
@@ -214,7 +214,7 @@ input {
 
 p {
 	color:#656565;
-	background-color:#DBDBDB;
+	background-color:#EEEEEE;
 	margin:0% 5% 5% 7%;
 	padding:3%;
 	float:left;
@@ -229,7 +229,7 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:1% 6% 0% 0%;
+	padding:1% 5% 0% 2%;
 	margin:0% 0% 0% 0%;
 }
 
@@ -261,5 +261,5 @@ background-color:#66AD60;
 	float:left;
 	height:auto;
 	background-color:#515151;
-	font-size:1.5em;
+	font-size:2.0em;
 	}
