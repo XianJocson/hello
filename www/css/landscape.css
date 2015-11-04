@@ -39,7 +39,7 @@
 	padding-bottom:2%;
 	width:93%;
 	float:left;
-	margin-bottom:5%;
+	margin-bottom:15%;
 	margin-top:10%;
 	}
 
@@ -200,9 +200,19 @@ ul {
 .nav-link {
 	float:left;
 	background-color:#515151;
-	padding:1% 1% 1% 1%;
+	padding:1% 5% 0% 5%;
 	margin:0% 0% 0% 0%;
 }
+
+.nav-brand{
+	float:left;
+	}
+	
+#brand{
+	max-width:80%;
+	display:flex;
+	margin-top:-5.0em;
+	}
 
 a {
 	display: block;
@@ -213,7 +223,6 @@ display:inline;
 color: #FFFFFF;
 text-decoration: none;
 text-transform: uppercase;
-font-size:43px;
 
 }
 
