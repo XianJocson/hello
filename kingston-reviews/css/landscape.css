@@ -54,8 +54,7 @@
 	}
 
 #form-compose-comment {
-	margin:0% 0% 0% 25%;
-	margin-bottom:20%;
+	margin:6% 0% 0% 35%;
 	width:auto;
 	}
 
@@ -96,7 +95,7 @@ p {
 }
 
 #social-top{
-	margin:0% 0% -2.0em 15%;
+	margin:0% 0% -5.5em 15%;
 	position:relative;
 	width:70%;
 	}
@@ -114,10 +113,10 @@ p {
 	}
 #screenshot{
 	background-color:#F6F6F6;
-	width:80%;
+	width:94%;
 	float:left;
-	padding:4%;
-	margin:5% 0% 0% 6%;
+	padding:2%;
+	margin:5% 0% 0% 1%;
 	} 
 
 #phone-icon{
@@ -137,10 +136,17 @@ p {
 	margin:5% 0% 10% 0%;
 	}
 	
-.icons {
+.active-icons {
 	max-width:20%;
 	float:left;
 	margin:0% 0% 0% 4%;
+	}
+
+.inactive-icons {
+	max-width:20%;
+	float:left;
+	margin:0% 0% 0% 4%;
+	opacity:0.6;
 	}
 
 #logon-form {
