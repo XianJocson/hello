@@ -254,4 +254,12 @@ background-color:#66AD60;
 	max-font-size:40px;
 	min-font-size:20px;
 	}
+
+.error-message{
+	margin:2% 0% 2% 7%;
+	font-size:3.0em;
+	color:#FF0004;
+	text-align:center;
+	}
+
 }
